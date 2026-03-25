@@ -15,7 +15,7 @@ Under review.
 
 ## Data
 Data are obtained from the following sources and regridded into 12 km resolution, projected into Albers Equal Area (epsg:5070). Please see the Methods in the manuscript for more detail.
-1. Sea-surface temperature; MEI, PDO, SOI indices: from NOAA Physical Sciences Laboratory
+1. Sea-surface temperature; MEI, PDO, SOI indices: from NOAA Physical Sciences Laboratory.
 2. Climate: Precipitation, wet-day frequency, daily maximum temperature (Tmax), daily minimum temperature (Tmin) from the NOAA nClimGrid daily dataset.
 3. Climate: Vapor pressure deficit calculated from saturation vapor pressure minus actual vapor pressure. Vapor pressure was calculated from daily dew point data from the Oregon State PRISM group (Daly et al., 2021) using the Clausius-Clapeyron formula. Saturation vapor pressure was calculated at the daily timestep as the average of saturation vapor pressure at Tmax and Tmin.
 4. Climate: Solar radiation and wind-speed data are from dynamically downscaled ERA5 reanalysis (Rahimi et al., 2022).
@@ -24,19 +24,19 @@ Data are obtained from the following sources and regridded into 12 km resolution
 
 ## Update the data and prepare the data for the models
 1. Summarize area burned in WUMI2 and extend it with MODIS using **data/Ecoprovinces_ExtendData**
-2. Setup the new SST gradient data using **data/Data_CreateENSOIndex** and **data/Data_CreateModelData**
-3. Set up even more SST indices by changing the `climindname` in **Data_CreateModelData-gSST** and rerunning the notebook for each index.
+2. Format climate indices using **data/Data_CreateENSOIndex** and **data/Data_CreateModelData**. This will build the SST gradient (gSST), MEI, SOI, and PDO. 
+3. Set up even more SST indices by manually changing the `climindname` in **Data_CreateModelData-gSST** and rerunning the notebook for each index.
 
 ## Train the models
 Note: you can update all of the models and analysis figures at once using **Run_updateModel**.
-1. Change the climate index used for the SST gradient in the file **0_climindname.txt**
+1. Change the climate index used for the gSST in the file **0_climindname.txt**
 2. Run **Model_ENSOclim_CoeffCheck** and **Model_ENSOclim_CoeffCheck-avg**
-3. Run **Model_ENSOclim_AkaikeCoeff** to input observed SST gradient and climate and output the models to predict the climate variables. 
+3. Run **Model_ENSOclim_AkaikeCoeff** to input observed gSST and climate and output the models to predict the climate variables. 
 4. Run **Model_Akaike** to input observed climate and area burned and output the models to predict the area burned.
 
 ## Predict area burned
-After models are trained, do not retrain them unless retraining with a different SST gradient.
-1. Change the right SST gradient in **0_climindname.txt**.
+After models are trained, do not retrain them unless retraining with a different gSST.
+1. Change the right gSST in **0_climindname.txt**.
 2. Run **Model_ENSOfull12-2022**. This will output the burned area predictions.
 3. Run **Model_ENSOpredictclim** and **Model_ENSOfullclim12-2025**, which will output the climate predictions under a detrended SST gradient.
 4. Perform cross-validation on the model with **Model_Akaike_CrossValid**
@@ -55,10 +55,10 @@ After models are trained, do not retrain them unless retraining with a different
 
 # Climate Indices List
 For defining in **0_climindname.txt**. These are created in **data/Data_CreateENSOIndex** and **data/Data_CreateModelData**.
-* 'patch125-155_nino3-34' (**Main model**), (125-155 deg lon) - nino3.4 + nino3 (190-270 deg)
-* 'pdo_noaa' (PDO index, from NOAA ERSSTv5)
-* 'mei_noaa' (Multivariate ENSO Index)
-* 'soi_noaa' (Southern Oscillation Index)
+* 'patch125-155_nino3-34' (**the SST gradient**), (125-155 deg lon) - nino3.4 + nino3 (190-270 deg)
+* 'pdo_noaa' (Pacific Decadal Oscillation (PDO) index, from NOAA ERSSTv5)
+* 'mei_noaa' (Multivariate ENSO (El Nino Southern Oscillation) Index)
+* 'soi_noaa' (Southern Oscillation Index, SOI)
 
 Nudged indicies for sensitivity tests:
 * 'patch125-155_nino3-34a': nudge up (northward)
@@ -66,7 +66,7 @@ Nudged indicies for sensitivity tests:
 * 'patch125-155_nino3-34c': nudge to the left (westward)
 * 'patch125-155_nino3-34d': nudge to the right (eastward)
 
-Alternate SSTs (for confirming results are insensitive to data source):
+Alternate SSTs (for comparing SST data sources):
 * 'patch125-155_nino3-34_COBEv2': from Japan Meteorological Agency, COBE-SST v2
 * 'patch125-155_nino3-34_HadISST1': from Met Office Hadley Centre, HadISST1
 
