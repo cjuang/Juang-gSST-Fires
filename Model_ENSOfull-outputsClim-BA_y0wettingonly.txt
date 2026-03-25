@@ -1,0 +1,126 @@
+0: All western US - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(VPD y-0,AMJ) + 0.000(Tmax y-0,OND) + 3.392 + ε
+0: All western US - NON-FOREST:
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(Precipitation y-1,AMJ) + 3.695 + ε
+1: American Semi-Desert - FOREST: 
+log10(BA) = 
++ 0.000(Precipitation y-1,JFM) + 1.103 + ε
+1: American Semi-Desert - NON-FOREST:
+log10(BA) = 
++ 0.000(Precipitation y-1,OND) + 0.000(Precipitation y-1,JFM) + 0.000(Tmax y-0,JAS) + 2.038 + ε
+2: AZ-NM Mountains - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,AMJ) + 0.000(Tmax y-0,JAS) + 2.284 + ε
+2: AZ-NM Mountains - NON-FOREST:
+log10(BA) = 
++ 0.000(Wind y-0,JFM) + 0.000(Tmax y-0,JAS) + 0.000(Wet_days y-0,JAS) + 0.000(Precipitation y-1,AMJ) + 1.431 + ε
+x: Black Hills Coniferous Forest - FOREST: 
+log10(BA) = 
++ 0.000(Precipitation y-0,AMJ) + 0.322 + ε
+x: Black Hills Coniferous Forest - NON-FOREST:
+log10(BA) = 
++ 0.000(Precipitation y-1,JFM) + -1.234 + ε
+3: CA Coast Chapparral Forest - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,OND) + 0.154 + ε
+3: CA Coast Chapparral Forest - NON-FOREST:
+log10(BA) = 
++ 0.000(VPD y-0,OND) + 1.846 + ε
+4: CA Coast Range Open Woodland - FOREST: 
+log10(BA) = 
++ -0.510(Precipitation y-0,OND) + 0.000(Wet_days y-0,JFM) + 0.000(VPD y-0,JAS) + 0.946 + ε
+4: CA Coast Range Open Woodland - NON-FOREST:
+log10(BA) = 
++ 0.000(Precipitation y-1,JFM) + 0.000(VPD y-0,JAS) + 2.430 + ε
+x: California Coastal Steppe-Redwood - FOREST: 
+log10(BA) = 
++ 0.000(Tmax y-0,JAS) + -0.701 + ε
+x: California Coastal Steppe-Redwood - NON-FOREST:
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + -1.234 + ε
+5: CA Dry Steppe Province - FOREST: 
+log10(BA) = 
++ 0.000(Precipitation y-1,OND) + -2.653 + ε
+5: CA Dry Steppe Province - NON-FOREST:
+log10(BA) = 
++ 0.000(Precipitation y-1,AMJ) + 0.171(Precipitation y-0,AMJ) + 1.549 + ε
+6: Cascade Mixed Forest - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(Wet_days y-0,AMJ) + 2.078 + ε
+6: Cascade Mixed Forest - NON-FOREST:
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 1.623 + ε
+7: Chihuahuan Semi-Desert - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,AMJ) + 0.000(Tmax y-0,JAS) + -0.175(Precipitation y-0,OND) + 1.486 + ε
+7: Chihuahuan Semi-Desert - NON-FOREST:
+log10(BA) = 
++ 0.000(Tmax y-0,AMJ) + 0.000(Solar_radiation y-0,JAS) + 2.018 + ε
+8: CO Plateau - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,AMJ) + 0.000(Tmax y-0,OND) + 1.761 + ε
+8: CO Plateau - NON-FOREST:
+log10(BA) = 
++ 0.000(Tmax y-0,OND) + 0.000(Solar_radiation y-0,JAS) + 1.852 + ε
+9: Great Plains - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(Tmax y-0,AMJ) + 0.000(Precipitation y-1,JFM) + 1.681 + ε
+9: Great Plains - NON-FOREST:
+log10(BA) = 
++ 0.000(Wet_days y-0,JAS) + 0.000(Precipitation y-1,AMJ) + 2.468 + ε
+10: IM Semi-Desert - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(Wet_days y-0,AMJ) + 1.529 + ε
+10: IM Semi-Desert - NON-FOREST:
+log10(BA) = 
++ 0.000(Precipitation y-1,AMJ) + 0.000(VPD y-0,JAS) + 0.000(Solar_radiation y-0,JFM) + 0.000(Precipitation y-1,JAS) + 0.000(Wind y-0,JAS) + 3.156 + ε
+11: IM Semi-Desert and Desert - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,AMJ) + 0.000(Wind y-0,JFM) + 0.000(VPD y-0,JAS) + 1.781 + ε
+11: IM Semi-Desert and Desert - NON-FOREST:
+log10(BA) = 
++ 0.000(Precipitation y-1,JFM) + 0.000(Wind y-0,JFM) + 2.585 + ε
+12: Middle Rocky Mountain Steppe - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(Tmax y-0,AMJ) + 0.000(Wind y-0,AMJ) + 2.494 + ε
+12: Middle Rocky Mountain Steppe - NON-FOREST:
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(Tmax y-0,AMJ) + 1.964 + ε
+13: NV-UT Mountains - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,AMJ) + 0.000(Wind y-0,JFM) + 0.000(Wind y-0,JAS) + 0.000(VPD y-0,JFM) + 0.000(Tmax y-0,JAS) + 1.643 + ε
+13: NV-UT Mountains - NON-FOREST:
+log10(BA) = 
++ 0.000(Precipitation y-1,AMJ) + 0.000(Tmax y-0,AMJ) + 0.000(Wind y-0,JFM) + 1.691 + ε
+14: Northern Rocky Mountain Forest - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(VPD y-0,AMJ) + 1.825 + ε
+14: Northern Rocky Mountain Forest - NON-FOREST:
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(Precipitation y-1,JAS) + 0.000(VPD y-0,JFM) + 1.430 + ε
+x: Pacific Lowland Mixed Forest Province - FOREST: 
+log10(BA) = 
++ 0.000(Tmax y-0,OND) + -0.416 + ε
+x: Pacific Lowland Mixed Forest Province - NON-FOREST:
+log10(BA) = 
++ 0.000(Wet_days y-0,JAS) + -1.049 + ε
+15: Sierran Steppe - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(Tmax y-0,AMJ) + 0.000(Precipitation y-1,JFM) + 0.000(VPD y-0,OND) + 2.595 + ε
+15: Sierran Steppe - NON-FOREST:
+log10(BA) = 
++ 0.000(Precipitation y-1,JFM) + 0.000(VPD y-0,AMJ) + 0.000(VPD y-0,OND) + 2.251 + ε
+16: Southern Rocky Mountain Steppe - FOREST: 
+log10(BA) = 
++ 0.000(VPD y-0,JAS) + 0.000(Solar_radiation y-0,JFM) + 0.000(Wind y-0,JFM) + 2.093 + ε
+16: Southern Rocky Mountain Steppe - NON-FOREST:
+log10(BA) = 
++ 0.000(VPD y-0,AMJ) + 0.000(Solar_radiation y-0,JAS) + 1.770 + ε
+17: SW Plateau and Plains - FOREST: 
+log10(BA) = 
++ 0.000(Tmax y-0,JFM) + -1.459 + ε
+17: SW Plateau and Plains - NON-FOREST:
+log10(BA) = 
++ 0.000(Precipitation y-1,JAS) + 0.000(Wind y-0,JFM) + 0.000(Precipitation y-1,JFM) + 0.000(Solar_radiation y-0,OND) + 0.000(Precipitation y-1,AMJ) + 1.712 + ε

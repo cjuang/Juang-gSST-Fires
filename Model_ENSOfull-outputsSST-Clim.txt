@@ -1,0 +1,255 @@
+0: All western US, for:
+VPD y-0,JAS_predicted = + 0.000(gSST y-0,JAS) + 0.000
+r(clim_obs, clim_pred): nan 
+VPD y-0,AMJ_predicted = + 0.510(gSST y-0,1-6) + -1.213
+r(clim_obs, clim_pred): 0.38*
+Tmax y-0,OND_predicted = + 0.161(gSST y-0,OND) + -0.633
+r(clim_obs, clim_pred): 0.23 
+0: All western US, non:
+VPD y-0,JAS_predicted = + 0.455(gSST y-0,4-9) + -1.220
+r(clim_obs, clim_pred): 0.35*
+Precipitation y-1,AMJ_predicted = 
++ -0.401(gSST y-0,1-6) + 0.954
+r(clim_obs, clim_pred): 0.33
+1: American Semi-Desert, for:
+Precipitation y-1,JFM_predicted = 
++ -0.607(gSST y-0,JFM) + 1.538
+r(clim_obs, clim_pred): 0.64
+1: American Semi-Desert, non:
+Tmax y-0,JAS_predicted = + 0.220(gSST y-0,JAS) + -0.691
+r(clim_obs, clim_pred): 0.21 
+Precipitation y-1,OND_predicted = 
++ -0.179(gSST y-0,OND) + 0.702
+r(clim_obs, clim_pred): 0.23
+Precipitation y-1,JFM_predicted = 
++ -0.597(gSST y-0,JFM) + 1.512
+r(clim_obs, clim_pred): 0.63
+2: AZ-NM Mountains, for:
+VPD y-0,AMJ_predicted = + 0.737(gSST y-0,1-6) + -1.751
+r(clim_obs, clim_pred): 0.59**
+Tmax y-0,JAS_predicted = + 0.137(gSST y-0,JAS) + -0.431
+r(clim_obs, clim_pred): 0.14 
+2: AZ-NM Mountains, non:
+Wind y-0,JFM_predicted = + 0.271(gSST y-1,10-3) + -0.859
+r(clim_obs, clim_pred): 0.36*
+Tmax y-0,JAS_predicted = + 0.137(gSST y-0,JAS) + -0.430
+r(clim_obs, clim_pred): 0.15 
+Wet_days y-0,JAS_predicted = + 0.020(gSST y-0,JAS) + -0.063
+r(clim_obs, clim_pred): 0.018 
+Precipitation y-1,AMJ_predicted = 
++ -0.172(gSST y-0,AMJ) + 0.382
+r(clim_obs, clim_pred): 0.15
+x: Black Hills Coniferous Forest, for:
+Precipitation y-0,AMJ_predicted = + 0.039(gSST y-0,AMJ) + -0.086
+r(clim_obs, clim_pred): -0.063 
+x: Black Hills Coniferous Forest, non:
+Precipitation y-1,JFM_predicted = 
++ -0.076(gSST y-0,JFM) + 0.192
+r(clim_obs, clim_pred): 0.039
+3: CA Coast Chapparral Forest, for:
+VPD y-0,OND_predicted = + 0.075(gSST y-0,OND) + -0.294
+r(clim_obs, clim_pred): 0.11 
+3: CA Coast Chapparral Forest, non:
+VPD y-0,OND_predicted = + 0.010(gSST y-0,OND) + -0.040
+r(clim_obs, clim_pred): 0.023 
+4: CA Coast Range Open Woodland, for:
+Precipitation y-0,OND_predicted = + 0.005(gSST y-0,OND) + -0.022
+r(clim_obs, clim_pred): -0.004 
+Wet_days y-0,JFM_predicted = + -0.429(gSST y-0,JFM) + 1.086
+r(clim_obs, clim_pred): 0.39*
+VPD y-0,JAS_predicted = + 0.000(gSST y-0,JAS) + 0.000
+r(clim_obs, clim_pred): nan 
+4: CA Coast Range Open Woodland, non:
+VPD y-0,JAS_predicted = + 0.000(gSST y-0,JAS) + -0.000
+r(clim_obs, clim_pred): nan 
+Precipitation y-1,JFM_predicted = 
++ -0.480(gSST y-0,JFM) + 1.217
+r(clim_obs, clim_pred): 0.49
+x: California Coastal Steppe-Redwood, for:
+Tmax y-0,JAS_predicted = + 0.022(gSST y-0,JAS) + -0.068
+r(clim_obs, clim_pred): -0.011 
+x: California Coastal Steppe-Redwood, non:
+VPD y-0,JAS_predicted = + 0.005(gSST y-0,JAS) + -0.015
+r(clim_obs, clim_pred): 0.0089 
+5: CA Dry Steppe Province, for:
+Precipitation y-1,OND_predicted = 
++ 0.042(gSST y-0,OND) + -0.164
+r(clim_obs, clim_pred): 0.061
+5: CA Dry Steppe Province, non:
+Precipitation y-0,AMJ_predicted = + 0.000(gSST y-0,AMJ) + -0.000
+r(clim_obs, clim_pred): nan 
+Precipitation y-1,AMJ_predicted = 
++ 0.000(gSST y-0,AMJ) + -0.000
+r(clim_obs, clim_pred): nan
+6: Cascade Mixed Forest, for:
+VPD y-0,JAS_predicted = + 0.125(gSST y-0,JAS) + -0.392
+r(clim_obs, clim_pred): 0.095 
+Wet_days y-0,AMJ_predicted = + 0.044(gSST y-0,AMJ) + -0.097
+r(clim_obs, clim_pred): 0.015 
+6: Cascade Mixed Forest, non:
+VPD y-0,JAS_predicted = + 0.155(gSST y-0,JAS) + -0.488
+r(clim_obs, clim_pred): 0.13 
+7: Chihuahuan Semi-Desert, for:
+VPD y-0,AMJ_predicted = + 0.744(gSST y-0,1-6) + -1.767
+r(clim_obs, clim_pred): 0.6**
+Tmax y-0,JAS_predicted = + 0.071(gSST y-0,JAS) + -0.224
+r(clim_obs, clim_pred): 0.079 
+Precipitation y-0,OND_predicted = + -0.303(gSST y-0,OND) + 1.189
+r(clim_obs, clim_pred): 0.42**
+7: Chihuahuan Semi-Desert, non:
+Tmax y-0,AMJ_predicted = + 0.775(gSST y-0,1-6) + -1.841
+r(clim_obs, clim_pred): 0.58**
+Solar_radiation y-0,JAS_predicted = + 0.146(gSST y-0,JAS) + -0.461
+r(clim_obs, clim_pred): 0.16 
+8: CO Plateau, for:
+VPD y-0,AMJ_predicted = + 0.762(gSST y-0,1-6) + -1.811
+r(clim_obs, clim_pred): 0.61**
+Tmax y-0,OND_predicted = + 0.369(gSST y-0,OND) + -1.450
+r(clim_obs, clim_pred): 0.48**
+8: CO Plateau, non:
+Tmax y-0,OND_predicted = + 0.382(gSST y-0,OND) + -1.498
+r(clim_obs, clim_pred): 0.49**
+Solar_radiation y-0,JAS_predicted = + 0.064(gSST y-0,JAS) + -0.203
+r(clim_obs, clim_pred): 0.051 
+9: Great Plains, for:
+VPD y-0,JAS_predicted = + 0.474(gSST y-0,4-9) + -1.272
+r(clim_obs, clim_pred): 0.41*
+Tmax y-0,AMJ_predicted = + 0.193(gSST y-0,AMJ) + -0.428
+r(clim_obs, clim_pred): 0.039 
+Precipitation y-1,JFM_predicted = 
++ -0.003(gSST y-0,JFM) + 0.007
+r(clim_obs, clim_pred): -0.038
+9: Great Plains, non:
+Wet_days y-0,JAS_predicted = + 0.000(gSST y-0,JAS) + 0.000
+r(clim_obs, clim_pred): nan 
+Precipitation y-1,AMJ_predicted = 
++ -0.049(gSST y-0,AMJ) + 0.108
+r(clim_obs, clim_pred): 0.015
+10: IM Semi-Desert, for:
+VPD y-0,JAS_predicted = + 0.507(gSST y-0,4-9) + -1.360
+r(clim_obs, clim_pred): 0.38*
+Wet_days y-0,AMJ_predicted = + -0.390(gSST y-0,1-6) + 0.927
+r(clim_obs, clim_pred): 0.33*
+10: IM Semi-Desert, non:
+VPD y-0,JAS_predicted = + 0.552(gSST y-0,4-9) + -1.482
+r(clim_obs, clim_pred): 0.42**
+Solar_radiation y-0,JFM_predicted = + 0.251(gSST y-0,JFM) + -0.635
+r(clim_obs, clim_pred): 0.14 
+Wind y-0,JAS_predicted = + 0.095(gSST y-0,JAS) + -0.298
+r(clim_obs, clim_pred): 0.11 
+Precipitation y-1,AMJ_predicted = 
++ -0.462(gSST y-0,1-6) + 1.098
+r(clim_obs, clim_pred): 0.42
+Precipitation y-1,JAS_predicted = 
++ -0.399(gSST y-0,4-9) + 1.071
+r(clim_obs, clim_pred): 0.34
+11: IM Semi-Desert and Desert, for:
+VPD y-0,AMJ_predicted = + 0.638(gSST y-0,1-6) + -1.515
+r(clim_obs, clim_pred): 0.48**
+Wind y-0,JFM_predicted = + 0.000(gSST y-0,JFM) + 0.000
+r(clim_obs, clim_pred): nan 
+VPD y-0,JAS_predicted = + 0.253(gSST y-0,JAS) + -0.795
+r(clim_obs, clim_pred): 0.24 
+11: IM Semi-Desert and Desert, non:
+Wind y-0,JFM_predicted = + 0.114(gSST y-0,JFM) + -0.288
+r(clim_obs, clim_pred): 0.17 
+Precipitation y-1,JFM_predicted = 
++ -0.394(gSST y-0,JFM) + 0.998
+r(clim_obs, clim_pred): 0.39
+12: Middle Rocky Mountain Steppe, for:
+VPD y-0,JAS_predicted = + 0.524(gSST y-0,4-9) + -1.405
+r(clim_obs, clim_pred): 0.4*
+Tmax y-0,AMJ_predicted = + -0.097(gSST y-0,AMJ) + 0.216
+r(clim_obs, clim_pred): 0.14 
+Wind y-0,AMJ_predicted = + 0.657(gSST y-0,1-6) + -1.560
+r(clim_obs, clim_pred): 0.55**
+12: Middle Rocky Mountain Steppe, non:
+VPD y-0,JAS_predicted = + 0.561(gSST y-0,4-9) + -1.504
+r(clim_obs, clim_pred): 0.44**
+Tmax y-0,AMJ_predicted = + -0.036(gSST y-0,AMJ) + 0.080
+r(clim_obs, clim_pred): 0.1 
+13: NV-UT Mountains, for:
+VPD y-0,AMJ_predicted = + 0.605(gSST y-0,1-6) + -1.439
+r(clim_obs, clim_pred): 0.46**
+Wind y-0,JFM_predicted = + 0.162(gSST y-0,JFM) + -0.411
+r(clim_obs, clim_pred): 0.22 
+Wind y-0,JAS_predicted = + -0.081(gSST y-0,JAS) + 0.256
+r(clim_obs, clim_pred): 0.075 
+VPD y-0,JFM_predicted = + 0.369(gSST y-0,JFM) + -0.934
+r(clim_obs, clim_pred): 0.34*
+Tmax y-0,JAS_predicted = + 0.464(gSST y-0,4-9) + -1.245
+r(clim_obs, clim_pred): 0.36*
+13: NV-UT Mountains, non:
+Tmax y-0,AMJ_predicted = + 0.461(gSST y-0,1-6) + -1.096
+r(clim_obs, clim_pred): 0.29 
+Wind y-0,JFM_predicted = + 0.082(gSST y-0,JFM) + -0.207
+r(clim_obs, clim_pred): 0.15 
+Precipitation y-1,AMJ_predicted = 
++ -0.481(gSST y-0,1-6) + 1.143
+r(clim_obs, clim_pred): 0.36
+14: Northern Rocky Mountain Forest, for:
+VPD y-0,JAS_predicted = + 0.000(gSST y-0,JAS) + -0.000
+r(clim_obs, clim_pred): nan 
+VPD y-0,AMJ_predicted = + -0.212(gSST y-0,AMJ) + 0.470
+r(clim_obs, clim_pred): 0.17 
+14: Northern Rocky Mountain Forest, non:
+VPD y-0,JAS_predicted = + 0.000(gSST y-0,JAS) + 0.000
+r(clim_obs, clim_pred): nan 
+VPD y-0,JFM_predicted = + -0.245(gSST y-1,10-3) + 0.776
+r(clim_obs, clim_pred): 0.33*
+Precipitation y-1,JAS_predicted = 
++ 0.000(gSST y-0,JAS) + 0.000
+r(clim_obs, clim_pred): nan
+x: Pacific Lowland Mixed Forest Province, for:
+Tmax y-0,OND_predicted = + -0.206(gSST y-0,OND) + 0.807
+r(clim_obs, clim_pred): 0.26 
+x: Pacific Lowland Mixed Forest Province, non:
+Wet_days y-0,JAS_predicted = + -0.161(gSST y-0,JAS) + 0.507
+r(clim_obs, clim_pred): 0.14 
+15: Sierran Steppe, for:
+VPD y-0,JAS_predicted = + 0.181(gSST y-0,JAS) + -0.568
+r(clim_obs, clim_pred): 0.16 
+Tmax y-0,AMJ_predicted = + 0.095(gSST y-0,AMJ) + -0.210
+r(clim_obs, clim_pred): -0.0071 
+VPD y-0,OND_predicted = + 0.055(gSST y-0,OND) + -0.216
+r(clim_obs, clim_pred): 0.091 
+Precipitation y-1,JFM_predicted = 
++ -0.306(gSST y-0,JFM) + 0.774
+r(clim_obs, clim_pred): 0.29
+15: Sierran Steppe, non:
+VPD y-0,AMJ_predicted = + 0.439(gSST y-0,1-6) + -1.043
+r(clim_obs, clim_pred): 0.34*
+VPD y-0,OND_predicted = + 0.047(gSST y-0,OND) + -0.185
+r(clim_obs, clim_pred): 0.077 
+Precipitation y-1,JFM_predicted = 
++ -0.349(gSST y-0,JFM) + 0.885
+r(clim_obs, clim_pred): 0.34
+16: Southern Rocky Mountain Steppe, for:
+VPD y-0,JAS_predicted = + 0.450(gSST y-0,4-9) + -1.207
+r(clim_obs, clim_pred): 0.34*
+Solar_radiation y-0,JFM_predicted = + 0.370(gSST y-0,JFM) + -0.937
+r(clim_obs, clim_pred): 0.27 
+Wind y-0,JFM_predicted = + 0.448(gSST y-0,JFM) + -1.135
+r(clim_obs, clim_pred): 0.49**
+16: Southern Rocky Mountain Steppe, non:
+VPD y-0,AMJ_predicted = + 0.517(gSST y-0,1-6) + -1.229
+r(clim_obs, clim_pred): 0.35*
+Solar_radiation y-0,JAS_predicted = + 0.239(gSST y-0,JAS) + -0.752
+r(clim_obs, clim_pred): 0.25 
+17: SW Plateau and Plains, for:
+Tmax y-0,JFM_predicted = + 0.398(gSST y-0,JFM) + -1.009
+r(clim_obs, clim_pred): 0.38*
+17: SW Plateau and Plains, non:
+Wind y-0,JFM_predicted = + 0.299(gSST y-1,10-3) + -0.948
+r(clim_obs, clim_pred): 0.41*
+Solar_radiation y-0,OND_predicted = + 0.273(gSST y-0,OND) + -1.071
+r(clim_obs, clim_pred): 0.36*
+Precipitation y-1,JAS_predicted = 
++ -0.135(gSST y-0,JAS) + 0.424
+r(clim_obs, clim_pred): 0.13
+Precipitation y-1,JFM_predicted = 
++ -0.299(gSST y-0,JFM) + 0.758
+r(clim_obs, clim_pred): 0.3
+Precipitation y-1,AMJ_predicted = 
++ -0.131(gSST y-0,AMJ) + 0.291
+r(clim_obs, clim_pred): 0.066
