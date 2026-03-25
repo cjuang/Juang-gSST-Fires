@@ -4,7 +4,7 @@ Statistical estimation of the contribution of the La Nina-like Pacific Ocean tre
 # Citing this code
 Please cite our manuscript and the code.
 
-* Juang, C. S. (2026). Code for Contribution of La-Niña-like Pacific Ocean trend in sea-surface temperatures to western United States wildfire area, 1984–2022. _Zenodo_. Retrieved (date). https://doi.org/10.5281/zenodo.18930095
+* Juang, C. S. (2026). Code for Contribution of La-Niña-like Pacific Ocean trend in sea-surface temperatures to western United States wildfire area, 1984–2022. _Zenodo_. Retrieved (date). https://doi.org/10.5281/(add associated DOI here)
 
 # Manuscript
 Under review.
