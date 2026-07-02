@@ -1,6 +1,9 @@
-# global scripts for all files
 import numpy as np
 from customconfig import *
+
+# opposite of log10
+def exponentialit(value):
+    return 10**value
 
 def in_forest(variable, thisregion):
     """
@@ -146,4 +149,20 @@ def annual_seasonAvg(data, firstmonth, finalmonth):
     thisdf = thisdf.resample('Y').mean().reset_index()
     return thisdf.clim.values
 
+# average climate variables, within a selected season
 
+def annual_seasonSum(data, firstmonth, finalmonth):
+    """
+    This intakes an array of current ecoregion's climate variable of monthly averages (data), 
+    Output: an array of yearly averages of the ecoregion climate variable, in the
+    seasons specified (firstmonth, finalmonth).
+    Requirements: time = an xarray timeseries of months in datetime format.
+    """
+    withinyear = (time['time.year']>= years[0]) & (time['time.year'] <= years[-1])
+    withinseason = (time['time.month'] >= firstmonth) & (time['time.month'] <= finalmonth)
+    thistime = time[withinseason & withinyear] # cut time
+    
+    # create pd dataframe based on data, for time resampling
+    thisdf = pd.DataFrame({'time': pd.to_datetime(thistime.values), 'clim':data[withinyear & withinseason]}).set_index('time')
+    thisdf = thisdf.resample('Y').sum().reset_index()
+    return thisdf.clim.values

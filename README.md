@@ -28,7 +28,7 @@ Data are obtained from the following sources and regridded into 12 km resolution
 3. Set up even more SST indices by manually changing the `climindname` in **Data_CreateModelData-gSST** and rerunning the notebook for each index.
 
 ## Train the models
-Note: you can update all of the models and analysis figures at once using **Run_updateModel**.
+Note: you can update all of the models and analysis figures at once using **Run_updateModel**. You will need to run it in several parts following the methods in the file, because some things need to be manually updated.
 1. Change the climate index used for the gSST in the file **0_climindname.txt**
 2. Run **Model_ENSOclim_CoeffCheck** and **Model_ENSOclim_CoeffCheck-avg**
 3. Run **Model_ENSOclim_AkaikeCoeff** to input observed gSST and climate and output the models to predict the climate variables. 
@@ -74,5 +74,6 @@ Alternate SSTs (for comparing SST data sources):
 # Contact
 
 * Caroline S. Juang, c.juang@columbia.edu
+* Google Scholar profile: https://scholar.google.com/citations?user=jKoNVJgAAAAJ
 
-* January 2022 to 2026
+* January 2022 to July 2026

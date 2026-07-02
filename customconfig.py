@@ -1,5 +1,7 @@
-# global variables for the analysis
-directory = 'your_data_directory' # customize this
+# global variables for all files
+directory = 'your_data_directory'
+figfolder = 'your_figures_folder_directory'
+
 
 # customize number of rolling periods
 ant_years = 1 # antecedent years to include (2 antecedent years + current year)
@@ -16,6 +18,10 @@ print('MANUALLY DEFINED, no forest models:')
 print(noforestmodels)
 print('MANUALLY DEFINED, no nonforest models:')
 print(nononforestmodels)
+
+# ensemble of sequences of randomly-drawn errors
+nensemble = 500 # number of ensemble members
+print('Ensemble is {:} members'.format(nensemble))
 
 # create strings of the types of forests, remove #11
 province_names = ['1: American Semi-Desert and Desert Province',
@@ -39,7 +45,7 @@ province_names = ['1: American Semi-Desert and Desert Province',
                   '20: Southern Rocky Mountain Steppe-Open Woodland-Coniferous Forest-Alpine Meadow Province',
                   '21: Southwest Plateau and Plains Dry Steppe and Shrub Province']
 
-# ecoregion names removing the ones not used for analysis
+# ecoregion names removing the ones we don't care about
 # this is the label printed on everything
 prov_abbr_names = ['0: All western US',
                   '1: American Semi-Desert',

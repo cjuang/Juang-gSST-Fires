@@ -1,0 +1,37 @@
+ecoregion	r	r_crossvalid	obs_trend_ppts	model_trend_ppts	model_DT_ppts	sst_contrib_ppts	sst_contrib_pct
+Western US forest	0.03 	0.92**	1320**	-8 	0 	-8 [-16, 0]	-1 [-1, 0]
+Western US non-forest	0.38*	0.66**	112 	-39 	-11 	-28	-25
+1: American Semi-Desert forest	-0.38*	-0.19 	1118*	-24 	-24 	0 [0, 0]	0 [0, 0]
+1: American Semi-Desert non-forest	0.64**	0.53**	-6 	-74 	-39 	-35	538
+2: AZ-NM Mountains forest	-0.36*	0.59**	1306**	2 	2 	0 [0, 0]	0 [0, 0]
+2: AZ-NM Mountains non-forest	0.15 	0.28 	211 	-205 	-192 	-13	-6
+3: CA Coast Chapparral Forest forest	-0.41**	-0.29 	0**	179 	179 	0 [0, 0]	nan [nan, nan]
+3: CA Coast Chapparral Forest non-forest	-0.43**	0.37*	39 	4 	4 	0	0
+4: CA Coast Range Open Woodland forest	-0.27 	0.51**	68 	-9 	-9 	0 [0, 0]	0 [0, 0]
+4: CA Coast Range Open Woodland non-forest	0.23 	-0.31 	-8 	-9 	14 	-23	308
+5: CA Dry Steppe Province forest	-0.18 	-0.18 	0**	-18 	-18 	0 [0, 0]	nan [nan, nan]
+5: CA Dry Steppe Province non-forest	0.39*	0.40*	-2 	9 	9 	0	-0
+6: Cascade Mixed Forest forest	-0.34*	0.76**	3913**	-5 	-5 	0 [0, 0]	0 [0, 0]
+6: Cascade Mixed Forest non-forest	-0.54**	0.17 	814**	-16 	-16 	0	0
+7: Chihuahuan Semi-Desert forest	-0.41**	0.67**	1355**	-0 	-0 	0 [0, 0]	0 [0, 0]
+7: Chihuahuan Semi-Desert non-forest	-0.40*	0.24 	68 	-1 	-1 	0	0
+8: CO Plateau forest	-0.26 	0.50**	4962**	-34 	-34 	0 [0, 0]	0 [0, 0]
+8: CO Plateau non-forest	-0.55**	0.05 	258 	-3 	-3 	0	0
+9: Great Plains forest	0.09 	0.73**	496*	-17 	-18 	0 [0, 0]	0 [0, 0]
+9: Great Plains non-forest	0.32*	0.70**	516**	80 	85 	-5	-1
+10: IM Semi-Desert forest	-0.56**	0.39*	440*	-18 	-18 	0 [0, 0]	0 [0, 0]
+10: IM Semi-Desert non-forest	0.37*	0.31 	142 	-66 	-33 	-33	-23
+11: IM Semi-Desert and Desert forest	-0.15 	0.61**	720*	-2 	-2 	0 [0, 0]	0 [0, 0]
+11: IM Semi-Desert and Desert non-forest	0.48**	0.40*	-16 	-14 	24 	-38	232
+12: Middle Rocky Mountain Steppe forest	-0.04 	0.90**	577*	3 	3 	0 [0, 0]	0 [0, 0]
+12: Middle Rocky Mountain Steppe non-forest	-0.23 	0.70**	262 	-0 	-0 	0	0
+13: NV-UT Mountains forest	-0.01 	0.75**	1152**	-3 	-3 	0 [0, 0]	0 [0, 0]
+13: NV-UT Mountains non-forest	0.35*	0.29 	88 	-64 	-35 	-30	-34
+14: Northern Rocky Mountain Forest forest	-0.38*	0.73**	1775**	-2 	-2 	0 [0, 0]	0 [0, 0]
+14: Northern Rocky Mountain Forest non-forest	0.27 	0.35*	989**	642**	642**	0	0
+15: Sierran Steppe forest	0.24 	0.86**	2582**	-39 	8 	-47 [-62, -25]	-2 [-2, -1]
+15: Sierran Steppe non-forest	0.40*	0.51**	337*	-36 	3 	-40	-12
+16: Southern Rocky Mountain Steppe forest	0.02 	0.80**	4721**	32*	32*	0 [0, 0]	0 [0, 0]
+16: Southern Rocky Mountain Steppe non-forest	0.05 	0.72**	419*	9 	9 	0	0
+17: SW Plateau and Plains forest	-0.34*	-0.34*	0**	-40 	-40 	0 [0, 0]	nan [nan, nan]
+17: SW Plateau and Plains non-forest	0.57**	0.47**	-7**	-176 	-154 	-22	306
