@@ -2,3 +2,5 @@
 .DS_Store
 /data/.ipynb_checkpoints
 .Rhistory
+__pycache__/customconfig.cpython-311.pyc
+*.pyc
